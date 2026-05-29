@@ -20,7 +20,7 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="max-w-2xl">
             <h1 className="text-5xl md:text-7xl font-display font-bold text-brand-text leading-[1.1] mb-6">
-              {"Trámites de extranjería en España, sin complicaciones ni demoras".split(" ").map((word, i) => (
+              {"Asesoría en Extranjería clara y efectiva".split(" ").map((word, i) => (
                 <motion.span
                   key={i}
                   initial={{ opacity: 0, filter: "blur(10px)", y: 10 }}
@@ -37,7 +37,7 @@ export default function Hero() {
               ))}
             </h1>
             <p className="text-xl text-brand-text/80 mb-10 leading-relaxed">
-              {"Expertos en visados, nacionalidad y permisos de residencia. Gestionamos tu caso con el máximo rigor legal para que obtengas una resolución favorable.".split(" ").map((word, i) => (
+              {"Ponemos a tu disposición un equipo de especialistas dedicados a convertir la complejidad de las leyes en soluciones claras y efectivas.".split(" ").map((word, i) => (
                 <motion.span
                   key={i}
                   initial={{ opacity: 0, filter: "blur(10px)", y: 10 }}
@@ -127,12 +127,8 @@ export default function Hero() {
                 );
               })}
 
-              <div className="z-10 w-32 h-32 bg-brand-bg rounded-full flex items-center justify-center shadow-2xl border border-brand-border">
-                <div className="w-20 h-20 bg-brand-text rounded-lg flex items-center justify-center">
-                  <svg viewBox="0 0 32 32" className="w-14 h-14 fill-brand-bg">
-                    <path d="M 8 32 L 0 32 L 0 24 L 8 24 Z M 20 32 L 12 32 L 12 20 L 0 20 L 0 12 L 20 12 Z M 32 32 L 24 32 L 24 8 L 0 8 L 0 0 L 32 0 Z" />
-                  </svg>
-                </div>
+              <div className="z-10 w-44 h-44 bg-brand-bg rounded-full flex items-center justify-center shadow-2xl shadow-brand-text/20 border-2 border-brand-border overflow-hidden">
+                <img src="/MEDLA_logo.png" alt="MEDLA Asesores" className="w-full h-full object-contain p-4" />
               </div>
 
               <div className="absolute w-[480px] h-[480px] border border-brand-border/20 rounded-full" />

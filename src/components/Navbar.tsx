@@ -10,7 +10,6 @@ export default function Navbar() {
     { name: "Inicio", href: "#" },
     { name: "Nosotros", href: "#about" },
     { name: "Servicios", href: "#services" },
-    { name: "Blog", href: "#blog" },
   ];
 
   return (
@@ -18,12 +17,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-brand-text rounded-sm flex items-center justify-center">
-               <svg viewBox="0 0 32 32" className="w-6 h-6 fill-brand-bg">
-                <path d="M 8 32 L 0 32 L 0 24 L 8 24 Z M 20 32 L 12 32 L 12 20 L 0 20 L 0 12 L 20 12 Z M 32 32 L 24 32 L 24 8 L 0 8 L 0 0 L 32 0 Z" />
-              </svg>
-            </div>
-            <span className="font-display font-semibold text-xl tracking-tight">MEDLA Extranjería</span>
+            <img src="/MEDLA_logo.png" alt="MEDLA Asesores" className="h-10 w-auto" />
           </div>
 
           {/* Desktop Nav */}

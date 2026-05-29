@@ -8,12 +8,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-8">
-              <div className="w-8 h-8 bg-brand-text rounded-sm flex items-center justify-center">
-                <svg viewBox="0 0 32 32" className="w-6 h-6 fill-brand-bg">
-                  <path d="M 8 32 L 0 32 L 0 24 L 8 24 Z M 20 32 L 12 32 L 12 20 L 0 20 L 0 12 L 20 12 Z M 32 32 L 24 32 L 24 8 L 0 8 L 0 0 L 32 0 Z" />
-                </svg>
-              </div>
-              <span className="font-display font-semibold text-xl tracking-tight">MEDLA Asesores</span>
+              <img src="/MEDLA_logo.png" alt="MEDLA Asesores" className="h-12 w-auto" />
             </div>
             <p className="text-brand-text/60 mb-8 leading-relaxed">
               Dedicados. Cercanos. Expertos. Asesoría jurídica de alta calidad con acompañamiento integral y personalizado.
@@ -37,8 +32,17 @@ export default function Footer() {
               <li><a href="#" className="text-brand-text/60 hover:text-brand-text transition-colors">Inicio</a></li>
               <li><a href="#about" className="text-brand-text/60 hover:text-brand-text transition-colors">Nosotros</a></li>
               <li><a href="#services" className="text-brand-text/60 hover:text-brand-text transition-colors">Servicios</a></li>
-              <li><a href="#blog" className="text-brand-text/60 hover:text-brand-text transition-colors">Blog</a></li>
               <li><a href="#contact" className="text-brand-text/60 hover:text-brand-text transition-colors">Contacto</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-display font-bold text-brand-text mb-8">Contacto</h4>
+            <ul className="space-y-4 text-brand-text/60 text-sm">
+              <li><strong>España:</strong> (+34) 914-321-457</li>
+              <li>C/ Velázquez Nº. 27, Piso 1º ext izq, Barrio de Salamanca, CP 28001. Madrid.</li>
+              <li className="pt-2"><strong>México:</strong> (+52) 55-4627-1661</li>
+              <li>Pafnuncio Padilla Nº. 26, Dep 400 Piso 4. Cd Satélite, Naucalpan de Juárez, CP 53100. Edo. De México.</li>
             </ul>
           </div>
 
@@ -61,7 +65,7 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="tu@email.com"
-                className="w-full bg-brand-bg-secondary border border-brand-border rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-accent/20 transition-all"
+                className="w-full bg-brand-bg-secondary border border-brand-border rounded-xl px-4 py-3 focus:outline-none focus:ring-2 focus:ring-brand-accent/20 transition-all text-brand-text"
               />
               <button className="w-full bg-brand-muted text-brand-text font-semibold py-3 rounded-xl hover:bg-brand-border transition-colors">
                 Enviar

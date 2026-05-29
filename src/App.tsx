@@ -5,7 +5,7 @@ import About from "./components/About";
 import StickyScroll from "./components/StickyScroll";
 import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
-import Blog from "./components/Blog";
+import Benefits from "./components/Benefits";
 import CTA from "./components/CTA";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -21,7 +21,7 @@ export default function App() {
         <StickyScroll />
         <Services />
         <Testimonials />
-        <Blog />
+        <Benefits />
         <CTA />
       </main>
       <Contact />
